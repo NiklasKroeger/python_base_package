@@ -2,6 +2,22 @@
 
 SHORT_DESCRIPTION
 
+# Instructions (DELTE THIS LATER)
+
+To build a new python package that is easily distributable, this template
+is provided. It contains the structure needed to make python packages
+easily installable with pip (the python package manager). 
+
+To create a new python package from this template simply copy **all** the 
+files (including .gitignore) from this directory to your new python project
+path and change PACKAGE_NAME to a suitable package name. Besides renaming the
+folder and the occurences in this README, the name and some other info also
+has to be adjusted in `setup.py`.
+
+Afterwards you should push a first commit to your [gitlab](https://gitlab.imr.uni-hannover.de/)
+repository. All python code that you write has to be inside the PACKAGE_NAME
+directory to be available for import later!
+
 ## Installation
 
 To make the contents of this package accessible in other python projects
